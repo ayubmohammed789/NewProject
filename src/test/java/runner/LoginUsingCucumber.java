@@ -2,7 +2,7 @@ package runner;
 
 import org.testng.annotations.BeforeTest;
 
-import com.leafBot.testng.api.base.Annotations;
+//import com.leafBot.testng.api.base.Annotations;
 
 import cucumber.api.CucumberOptions;
 
@@ -10,7 +10,7 @@ import cucumber.api.CucumberOptions;
 				 glue={"com/leafBot"}, 
 				 monochrome=true)
 
-public class LoginUsingCucumber extends Annotations{
+public class LoginUsingCucumber extends TC001_Login{
 	
 	@BeforeTest
 	public void setData() {
